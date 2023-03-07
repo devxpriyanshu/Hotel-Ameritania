@@ -1,0 +1,323 @@
+/* Responsive Section*/
+
+@media (max-width: 640px) {
+
+    /* Header Section */
+
+    .header-container {
+        position: unset !important;
+    }
+
+    .res-nav-container {
+        z-index: 100 !important;
+        background-color: var(--secondary-clr);
+    }
+
+
+    .res-nav-container p,
+    .res-nav-container span {
+        color: var(--primary-clr);
+        padding-inline: 5px;
+    }
+
+    .res-nav-container img {
+        max-width: 150px;
+        max-height: 20px;
+        margin: 5px 0;
+    }
+
+    /* Main Hero Section */
+
+    .hero-container {
+        background-color: var(--secondary-clr);
+        padding-bottom: 100px;
+    }
+
+    .hero-slideshow li {
+        filter: contrast(100%) brightness(100%) saturate(120%);
+    }
+
+    .hero-container .hero-heading {
+        position: relative !important;
+        padding: 20px;
+        bottom: 0;
+        top: 30px;
+    }
+
+    .hero-slideshow .next,
+    .hero-slideshow .prev {
+        bottom: -265px;
+    }
+
+    .hero-slideshow .next {
+        left: 15%;
+    }
+
+    .hero-slideshow .prev {
+        left: 7%;
+    }
+
+    /* About Section */
+    .about-container {
+        padding: 20px;
+        background-color: var(--primary-clr)
+    }
+
+    .about-content>div {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .about-content div:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .about-content div h2 {
+        font-size: 22px;
+        letter-spacing: 0.66px;
+        padding-bottom: 15px;
+    }
+
+    .about-content .line {
+        transform: translateY(0);
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-container .about-img-1 {
+        max-width: 264px;
+        max-height: 199px;
+    }
+
+    .about-container .about-img-2 {
+        max-width: 158px;
+        max-height: 119px;
+        transform: translate(180px, 40px);
+    }
+
+    .about-content .about-inner-content {
+        padding-top: 60px;
+    }
+
+    .about-inner-content p:first-child {
+        font-size: 13px;
+        padding-bottom: 24px;
+    }
+
+    .about-inner-content p:nth-child(2) {
+        font-size: 15px;
+        line-height: 28px;
+        padding-bottom: 32px;
+    }
+
+    /* Map Section */
+
+    .map-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .things-to-do-container {
+        width: 100%;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .things-to-do-container img {
+        max-width: 333px;
+        max-height: 250px;
+        padding-bottom: 25px;
+    }
+
+    .things-to-do-container h2 {
+        font-size: 28px;
+        letter-spacing: 0.56px;
+        padding-bottom: 0;
+    }
+
+    .things-to-do-container .line {
+        display: none;
+    }
+
+    .things-to-do-container>div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Rooms Section */
+
+    .room-container {
+        flex-direction: column;
+        padding: 20px 20px 100px;
+        gap: 20px;
+    }
+
+    .room-container img {
+        max-width: 335px;
+        max-height: 251.36px;
+    }
+
+    .room-slideshow .next {
+        transform: translate(-120px, -20px);
+    }
+
+    .room-slideshow .prev {
+        transform: translate(-160px, -20px);
+    }
+
+    /* event section */
+
+    .event-section .bg-accent-clr {
+        background-color: var(--secondary-clr);
+        height: 75%;
+    }
+
+    .event-section .event-container {
+        padding: 30px 20px 80px;
+    }
+
+    .event-heading {
+        flex-direction: column;
+    }
+
+    .event-heading h2 {
+        font-size: 28px;
+        letter-spacing: 0.56px;
+        padding-bottom: 20px;
+    }
+
+    .event-slideshow {
+        padding-top: 25px;
+    }
+
+    .event-content {
+        width: 335px;
+        height: 251px;
+    }
+
+    .event-content::after {
+        display: none;
+    }
+
+    .event-inner-content {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+    /* upcoming event section */
+
+    .upcoming-event-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 70px;
+        margin-left: 0px;
+        gap: 0px;
+    }
+
+    .upcoming-event-container .event-circle {
+        margin-bottom: 25px;
+    }
+
+    .upcoming-events>p {
+        padding-bottom: 20px;
+    }
+
+    .upcoming-events p:nth-child(2) {
+        padding-bottom: 34px;
+    }
+
+    .upcoming-events {
+        align-items: center;
+    }
+
+    .event-slideshow .next {
+        transform: translate(25px, -10px);
+    }
+
+    .event-slideshow .prev {
+        transform: translate(-60px, -10px);
+    }
+
+    /* Gallery Section */
+
+    .gallery-container {
+        flex-direction: column;
+        max-width: var(--container-width);
+        padding: 50px 20px;
+    }
+
+    .gallery-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .gallery-content .border-hover {
+        padding-bottom: 32px;
+    }
+
+    /* Facts Section */
+
+    .facts-container {
+        background-color: unset;
+        margin-bottom: 0;
+        padding: 20px 20px 40px;
+    }
+
+    .facts-heading {
+        padding-bottom: 15px;
+    }
+
+    .facts-heading h2 {
+        font-size: 22px;
+        letter-spacing: 0;
+    }
+
+    .facts-heading .line {
+        width: 42%;
+    }
+
+    .facts-content {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    /* Footer Section */
+
+    .footer-container {
+        padding-top: 50px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-content ul {
+        align-items: center;
+        order: 3;
+    }
+
+    .footer-content div:nth-child(2) {
+        padding-bottom: 50px;
+    }
+
+    .footer-content>div:nth-child(3) {
+        align-items: center;
+        text-align: center !important;
+        padding-inline-start: 0;
+        padding-bottom: 50px;
+    }
+
+    .footer-content>div:nth-child(3)>p:first-child {
+        padding-bottom: 10px;
+    }
+
+    .footer-container .line {
+        margin-top: 40px;
+    }
+
+    .footer-container>p:last-child {
+        padding-bottom: 100px;
+    }
+
+}

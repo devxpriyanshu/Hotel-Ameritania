@@ -1,0 +1,7 @@
+/* Responsive Section*/
+
+@media (max-width: 640px) {
+
+  /* Bottom Sticky */
+
+}
